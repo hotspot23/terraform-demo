@@ -16,7 +16,7 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "Name of the SSH key pair"
-  default     = "workstation-ssh-key"
+  default     = "aws-access-key"
 }
 
 variable "instance_name" {
